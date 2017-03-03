@@ -1,0 +1,130 @@
+body {
+	font-family: Microsoft Yahei;
+	background-color: #CCCCCC;
+}
+
+header {
+	height: 90px;
+	background-color: #333333;
+}
+
+h1 {
+	float: left;
+	margin-left: 50px; 
+	height: 50px;
+	line-height: 50px;
+	color: red;
+}
+
+nav {
+	float: right;
+	margin-right: 50px; 
+	height: 50px;
+	line-height: 50px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 15px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+article, aside {
+	padding: 10px 25px 25px 25px;
+	margin: 25px;
+	background-color: #FAFAFA;
+}
+
+h3 {
+	color: #555555;
+}
+
+article span {
+	color: #CCCCCC;
+	font-size: 15px;
+}
+
+article p {
+	text-indent: 2em;
+}
+
+article ul {
+	list-style: none;
+}
+
+.image {
+	padding: 20px;
+	margin: 10px 30px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+
+.image img {
+	margin-top: 5px;
+}
+
+article table {
+	width: 500px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+article table th {
+	color: white;
+	background-color: #333333;
+}
+
+article .total {
+	background-color: #CCCCCC;
+}
+
+aside form {
+	text-align: center;
+	line-height: 2em;
+}
+
+aside table {
+	margin: auto;
+	width: 500px; 
+	height: 200px;
+}
+
+aside table .left {
+	text-align: right;
+}
+
+aside table .right {
+	text-align: left;
+}
+
+aside table p {
+	color: #CCCCCC;
+	font-size: 9px;
+	line-height: .5em;
+}
+
+aside form .submit {
+	margin-top: 10px;
+	width: 500px;
+	height: 38px;
+	color: white;
+	background-color: #1C86EE;
+	border-radius: 10px;
+	border: 0px; 
+}
+
+footer {
+	padding: 10px;
+	height: 50px;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	background-color: #333333;
+}
